@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Astparser
+Bundle-SymbolicName: astparser; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: astparser.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jdt.core;bundle-version="3.8.2",
+ org.eclipse.core.resources;bundle-version="3.8.1",
+ org.eclipse.jdt.launching;bundle-version="3.6.100"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
